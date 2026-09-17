@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>外連｜職安署架構展示</title>
+  <link rel="stylesheet" href="css/demo.css">
+</head>
+<body data-page="outbound">
+  <a class="skip" href="#main">跳到主要內容</a>
+  <div id="site-header"></div>
+  <main id="main">
+    <p class="crumb"><a href="index.html">首頁</a> ＞ 外連</p>
+    <h1 id="title">全國／部會入口</h1>
+    <p class="lead">本署不自建鏡像。簡報時停在這一頁，避免跳到真站打斷說明。</p>
+    <div class="callout">
+      <strong id="name">外連</strong>
+      <p>真站會開新視窗到該系統，並可加「您即將離開本署網站」提示。展示站到此為止，沒有實際網址跳轉。</p>
+    </div>
+    <div class="prose">
+      <p>徵才走台灣就業通／人事總處事求人，招標走政府電子採購網，法令查找走勞動法令查詢系統或全國法規資料庫。這些入口全國已有、資料也比較新，本署自建欄位只會過時。</p>
+      <p>教育訓練資訊網、卓越網、重大職災公開網、化學品相關系統同理：本站留一句話與外連，不複製對方的列表。</p>
+    </div>
+    <p class="next"><a href="javascript:history.back()">回上一頁</a>　｜　<a href="index.html">回首頁</a></p>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/chrome.js"></script>
+  <script>
+    var to = new URLSearchParams(location.search).get("to") || "指定系統";
+    document.getElementById("title").textContent = to;
+    document.getElementById("name").textContent = "此為「" + to + "」";
+    document.title = to + "｜職安署架構展示";
+  </script>
+</body>
+</html>

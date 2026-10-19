@@ -43,6 +43,7 @@
         <div class="chrome-links">
           <a href="index.html">回首頁</a>
           <a href="index.html#guide">網站導覽</a>
+          <a href="changes.html">異動說明</a>
           <a class="is-off" href="#" aria-disabled="true" title="展示站不提供英文版">English</a>
           <a href="citizen.html#mailbox">意見信箱(勞檢申訴)</a>
         </div>
